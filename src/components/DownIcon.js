@@ -14,7 +14,9 @@ const DownIcon = (props) => {
     >
       <div
         style={{
-          maxWidth: "30px"
+          maxWidth: "30px",
+              margin: "auto",
+          width: "50%"
         }}
       >
         <img src={props.icon} />
